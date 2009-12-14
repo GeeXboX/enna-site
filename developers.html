@@ -39,6 +39,25 @@
 	  You can subscribe to <a href="https://www.geexbox.org/sympa/info/commits">GeeXboX commits mailing list</a> to be informed of all modifications that occured on Enna's mercurial repository. 
 	</p>
 	<p>
+          <h3>Development</h3>
+          We always lack of C developers and fully welcome new players to join the team. If you're interested in Enna's development, here are a few prerequisites:
+          <ul>
+            <li>Acquire EFL, through their latest <a href="http://download.enlightenment.org/releases/">releases</a> and <a href="http://download.enlightenment.org/snapshots/LATEST/">snapshots</a>. Right now, Enna only a few mandatory libs from EFL project, namely Eina, Eet, Evas, Ecore, Efreet, Embryo, Edje and E_Dbus.
+            </li>
+            <li>Acquire <a href="http://libnfo.geexbox.org/">libnfo</a> (optional but still recommended).</li>
+            <li>Acquire <a href="http://libvalhalla.geexbox.org/">libvalhalla</a></li>
+            <li>Acquire <a href="http://libplayer.geexbox.org/">libplayer</a></li>
+          </ul>
+          As a convenience, these librairies have already been packaged for Ubuntu 9.10 (Karmic) users. If you run on this distribution, the easiest for you might be to add the following line to your <i>/etc/apt/sources.list</i> file:<br/>
+          <br/>
+          <i>deb http://packages.geexbox.org/ karmic main</i><br/>
+          <br/>
+          Once done, you may just install the required librairies thorugh the following command:<br/>
+          <br/>
+          <i>aptitude update</i><br/>
+          <i>aptitude install libeina-dev libeet-dev libevas-dev libevas-engines libevas-engines-extras libecore-dev libefreet-dev libembryo-dev libedje-dev libedje-bin libedbus-dev libhal-dev libhal-storage-dev libnfo-dev libplayer-dev libvalhalla-dev</i>
+        </p>
+        <p>
 	  <h3>Internationalization</h3>
 	  Enna's current user interface is available in English, French, German and Italian. If you want to add your native language, just follow the instructions below: <br />
 	  <ul>
