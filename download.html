@@ -50,18 +50,52 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
       <div id="content">
 	<h2>Give it a try ...</h2>
         <p class="emp">
-	  The Enna project has not yet been officially released (but that should come pretty soon). If you wanna give it a try, you probably need to consider yourself a <a href="developers.html">developer</a> and install the mandatory dependancies.
+	  The Enna project is available under multiple forms, embedded
+	  within <a href="http://www.geexbox.org/">GeeXboX LiveCD
+	  project</a>, or as a standalone application for any
+          GNU/Linux distribution.
         </p>
 
         <p>
-        <h3>Download Sources</h3>
-          At GeeXboX, we use the <a href="http://mercurial.selenic.com/">Mercurial</a> project as SCM for source control.<br/>
+        <h3>Stable Releases</h3>
+        Current stable release
+        is <a href="releases/enna-0.4.0.tar.bz2">v0.4.0</a>, from 2009/01/02.<br/>
+        This is the very first project's official release.
+        Further releases and tarball checksums are available in our
+        <a href="releases/">releases placeholder</a>.
+        </p>
+
+        <p>
+        <h3>Ubuntu Packages</h3>
+        As a convenience, Enna has been packaged for Ubuntu 9.10
+        (Karmic) users. If you run on this distribution, the easiest
+        for you might be to add the following line to your
+        <i>/etc/apt/sources.list</i> file:<br/>
+        <br/>
+        <i>deb http://packages.geexbox.org/ karmic main</i><br/>
+        <br/>
+        Once done, you may just install Enna through the following command:<br/>
+          <br/>
+          <i>aptitude update</i><br/>
+          <i>aptitude install enna</i>
+        </p>
+
+        <p>
+          <h3>Development Sources</h3>
+          If you wanna give it a try, you probably need to consider
+          yourself a <a href="developers.html">developer</a> and install
+          the mandatory build dependancies.
+          <br/>
+          GeeXboX projects use
+          the <a href="http://mercurial.selenic.com/">Mercurial</a>
+          project as SCM for source control.<br/>
           <br/>
           It's actualy pretty easy to retrieve current sources for Enna, through the following:<br/>
           <br/>
           <b>hg clone http://hg.geexbox.org/enna</b><br/>
           <br/>
-          If you already done so, updating the sources to latest development tree can be done quite easily through:<br/>
+          If you already done so, updating the sources to latest
+          development tree can be done quite easily through:<br/>
           <br/>
           <b>hg pull -u</b>
         </p>
