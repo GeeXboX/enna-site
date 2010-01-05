@@ -45,7 +45,14 @@ h4 {
 #footer {
   clear: both;
   margin-top: 10px;
-  border-top: 4px solid #444;
+  border-top: 2px solid #444;
+}
+
+#footer #ads {
+  clear: both;
+  text-align: center;
+  margin-top: 4px;
+  border-bottom: 2px solid #444;
 }
 
 #header #content, #footer #content {
